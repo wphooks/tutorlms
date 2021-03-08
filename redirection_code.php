@@ -4,7 +4,7 @@ function Tutor_redirect_users_by_role() {
     $role_name      = $current_user->roles[0];
  
     if ( 'subscriber' === $role_name ) {
-        wp_redirect( 'https://dev.wpdevcloud.com/dashboard' );
+        wp_redirect( 'https://yoursite.com/dashboard' );
     } // if
  
 } // Tutor_Student_redirect_users_by_role
@@ -16,7 +16,7 @@ function Tutor_redirect_users_by_role_two() {
     $role_name      = $current_user->roles[0];
  
     if ( 'tutor_instructor' === $role_name ) {
-        wp_redirect( 'https://dev.wpdevcloud.com/dashboard' );
+        wp_redirect( 'https://yoursite.com/dashboard' );
     } // if
  
 } // Tutor_Student_redirect_users_by_role
